@@ -1,0 +1,66 @@
+# print(bool('python'), bool('')) #=> True False
+# print(bool([1, 2, 3]), bool([])) #=> True False
+# print(bool((1, 2)), bool(( ))) #=> True False
+# print(bool({'1' : 1}), bool ({})) #=> True False
+# print(bool(-3), bool(0))#=> True False 정수는 0만 거짓,나머지 정수는 모두 참
+# print(bool(None))
+#
+#
+# if True:
+#     if False:
+#         print("A")
+#     else:
+#             print("B")
+# else:
+#     if True:
+#         print("C")
+#     else:
+#         print("D")
+# print("E")
+#
+#
+# a = int(input("a : "))
+# b = int(input("b : "))
+#
+# if a > b:
+#     print("a가 b보다 큽니다.")
+# elif a < b:
+#     print("a가 b보다 작습니다.")
+#  elif
+#
+#
+#
+#  a = "A"
+#  b = "python"
+#  if a in ["A","B","C"]:
+#
+#
+#  if 'y' not in b:
+#      print("x")
+# else:
+#     print(b)
+#
+#
+# h , m = map(int, input().split())
+# timer = int(input("timer: "))
+# m += timer
+# if m >= 60:
+#     h += m // 60
+#     m = m % 60
+#     if h >= 24:
+#         h = h % 24
+# print(h,m)
+#
+#
+#
+# n = int(input("n: "))
+# m = n
+# cnt = 0
+# while True:
+#     part1 = m % 10
+#     part2 = (m // 10+ m %10) % 10
+#     m = part1*10 +part2
+#     cnt += 1
+#     if m == n:
+#         break
+# print(cnt)
